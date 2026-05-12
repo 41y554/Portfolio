@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warwick Summer School Portal | Portfolio</title>
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+ <!-- NAVIGATION -->
+  <nav class="navbar">
+    <a href="../index.html" class="back-link">← Back to Portfolio</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">Featured Full-Stack Project</p>
+
+      <h1>Warwick Summer School Portal</h1>
+
+      <p class="hero-text">
+        A Flask-based web application designed to streamline
+        course discovery, student applications, and
+        administrative workflow management for the
+        University of Warwick Summer School.
+      </p>
+
+      <div class="tech-stack">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>SQLite</span>
+        <span>Bootstrap</span>
+        <span>Jinja2</span>
+        <span>HTML/CSS</span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#" class="primary-btn">GitHub Repository</a>
+        <a href="#" class="secondary-btn">Live Demo</a>
+      </div>
+
+    </div>
+
+    <div class="hero-image-container">
+      <img
+        src="../images/warwick-portal/admin-dashboard.png"
+        alt="Admin Dashboard"
+        class="hero-image"
+      >
+    </div>
+
+  </section>
+
+<!-- OVERVIEW -->
+  <section class="section">
+
+    <h2>Project Overview</h2>
+
+    <p>
+      The Summer School Information and Application Portal
+      was developed to improve how prospective students
+      browse and apply for Warwick Summer School courses,
+      while also providing administrators with tools to
+      manage applications efficiently.
+    </p>
+
+    <p>
+      The platform supports a complete application workflow,
+      including course discovery, application submission,
+      administrative review, and application status
+      management.
+    </p>
+
+  </section>
+
+
+   <!-- USER PERSONAS -->
+  <section class="section">
+
+    <h2>User Research & Personas</h2>
+
+    <p>
+      The platform was designed around two key user groups:
+      prospective students and university administrators.
+    </p>
+
+    <div class="card-grid">
+
+      <div class="card">
+
+        <h3>Prospective Student</h3>
+
+        <p>
+          Students needed clear course information,
+          transparent application processes,
+          and responsive feedback.
+        </p>
+
+        <ul>
+          <li>Browse courses easily</li>
+          <li>Understand fees and deadlines</li>
+          <li>Submit applications quickly</li>
+          <li>Receive confirmation feedback</li>
+        </ul>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Administrator</h3>
+
+        <p>
+          Administrators required tools for efficiently
+          reviewing, updating, and managing applications.
+        </p>
+
+        <ul>
+          <li>Review applications efficiently</li>
+          <li>Manage statuses quickly</li>
+          <li>Reduce repetitive admin work</li>
+          <li>Maintain organised workflows</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- WIREFRAMES -->
+  <section class="section">
+
+    <h2>Wireframing & Planning</h2>
+
+    <p>
+      Medium-fidelity wireframes were created during
+      the planning stage to map user journeys,
+      interface structure, and application flows.
+    </p>
+
+    <div class="image-grid">
+
+      <div>
+        <img
+          src="../images/warwick-portal/homepage-wireframe.png"
+          alt="Homepage Wireframe"
+        >
+
+        <p class="caption">Homepage Wireframe</p>
+      </div>
+
+      <div>
+        <img
+          src="../images/warwick-portal/dashboard-wireframe.png"
+          alt="Dashboard Wireframe"
+        >
+
+        <p class="caption">Admin Dashboard Wireframe</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DESIGN PRINCIPLES -->
+  <section class="section">
+
+    <h2>Design Principles</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+
+        <h3>DRY Principle</h3>
+
+        <p>
+          Reusable Jinja2 templates and shared components
+          were implemented to reduce duplication
+          and improve maintainability.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>User-Centered Design</h3>
+
+        <p>
+          The application interface and workflows
+          were designed around user goals,
+          accessibility, and usability.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FINAL UI -->
+  <section class="section">
+
+    <h2>Final Interface Design</h2>
+
+    <div class="project-block">
+
+      <h3>Homepage & Course Discovery</h3>
+
+      <p>
+        The homepage provides users with
+        categorised course listings and
+        clear navigation pathways.
+      </p>
+
+      <img
+        src="../images/warwick-portal/homepage.png"
+        alt="Homepage Screenshot"
+      >
+
+    </div>
+
+    <div class="project-block">
+
+      <h3>Application Workflow</h3>
+
+      <p>
+        Students can apply through a structured
+        application form with validation and
+        confirmation feedback.
+      </p>
+
+      <img
+        src="../images/warwick-portal/application-form.png"
+        alt="Application Form Screenshot"
+      >
+
+    </div>
+
+    <div class="project-block">
+
+      <h3>Administrative Dashboard</h3>
+
+      <p>
+        Administrators can review applications,
+        update statuses, and manage submissions
+        through a protected dashboard.
+      </p>
+
+      <img
+        src="../images/warwick-portal/admin-dashboard.png"
+        alt="Admin Dashboard Screenshot"
+      >
+
+    </div>
+
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section">
+
+    <h2>Key Features</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+        <h3>CRUD Operations</h3>
+
+        <p>
+          Implemented create, read, update,
+          and delete functionality for
+          application management.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Session Authentication</h3>
+
+        <p>
+          Protected administrator routes
+          using Flask session-based
+          authentication.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Responsive Design</h3>
+
+        <p>
+          Bootstrap was used to create
+          responsive layouts across
+          desktop and mobile devices.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Database Integration</h3>
+
+        <p>
+          SQLite was used to manage
+          applications, timestamps,
+          and status tracking.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- APPLICATION FLOW -->
+  <section class="section">
+
+    <h2>Application Workflow</h2>
+
+    <p>
+      The portal supports a complete
+      end-to-end application management process.
+    </p>
+
+    <img
+      src="../images/warwick-portal/application-flow.png"
+      alt="Application Workflow Diagram"
+      class="large-image"
+    >
+
+  </section>
+
+  <!-- DATA MANAGEMENT -->
+  <section class="section">
+
+    <h2>Data Management Strategy</h2>
+
+    <p>
+      Application data was stored in an
+      SQLite relational database and managed
+      through Flask backend routes.
+    </p>
+
+    <p>
+      The system handled application creation,
+      retrieval, updates, and deletion while
+      maintaining data integrity through
+      validation and structured workflows.
+    </p>
+
+    <img
+      src="../images/warwick-portal/entity-relationship-diagram.png"
+      alt="Entity Relationship Diagram"
+      class="large-image"
+    >
+
+  </section>
+
+  <!-- TESTING -->
+  <section class="section">
+
+    <h2>Testing & Validation</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+
+        <h3>Authentication Testing</h3>
+
+        <p>
+          Verified admin route protection
+          and session behaviour.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Form Validation</h3>
+
+        <p>
+          Tested valid and invalid
+          application submissions.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Dashboard Functionality</h3>
+
+        <p>
+          Confirmed application updates,
+          deletions, and status management.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Responsive Testing</h3>
+
+        <p>
+          Verified layouts across
+          desktop, tablet, and mobile devices.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CHALLENGES -->
+  <section class="section">
+
+    <h2>Challenges & Solutions</h2>
+
+    <p>
+      A major challenge involved managing
+      high volumes of applications near
+      submission deadlines while maintaining
+      administrator efficiency.
+    </p>
+
+    <p>
+      Proposed solutions included asynchronous
+      processing, automated notifications,
+      dashboard prioritisation, and future
+      scalability planning through migration
+      to PostgreSQL.
+    </p>
+
+  </section>
+
+  <!-- BEST PRACTICES -->
+  <section class="section">
+
+    <h2>Development Best Practices</h2>
+
+    <ul class="best-practices">
+
+      <li>Reusable Jinja2 templating</li>
+      <li>Centralised query functions</li>
+      <li>Modular Flask route structure</li>
+      <li>Responsive Bootstrap layouts</li>
+      <li>Session-based route protection</li>
+      <li>Structured project organisation</li>
+
+    </ul>
+
+  </section>
+
+  <!-- FUTURE -->
+  <section class="section">
+
+    <h2>Future Improvements</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+        <h3>Email Notifications</h3>
+        <p>
+          Automated confirmation
+          and status update emails.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>User Accounts</h3>
+        <p>
+          Applicant dashboards for
+          tracking application status.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Advanced Admin Tools</h3>
+        <p>
+          Search, filtering,
+          and analytics functionality.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Scalability</h3>
+        <p>
+          Migration to PostgreSQL
+          for production-scale deployment.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      Built using Flask, SQLite, Bootstrap, and Jinja2.
+    </p>
+
+  </footer>
+
+</body>
+
+</html>

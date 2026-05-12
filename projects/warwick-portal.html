@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Warwick Summer School Portal</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="../index.html">← Back to Portfolio</a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero project-hero">
+
+    <div class="hero-text">
+      <h1>Warwick Summer School Portal</h1>
+
+      <p class="hero-description">
+        A Flask-based web application designed to streamline
+        course discovery, student applications, and administrative
+        workflow management for the University of Warwick Summer School.
+      </p>
+
+      <div class="tech-stack">
+        <span>Flask</span>
+        <span>SQLite</span>
+        <span>Bootstrap</span>
+        <span>Jinja2</span>
+        <span>Python</span>
+      </div>
+    </div>
+
+    <img
+      src="images\warwick-portal\admin-dashboard.png"
+      alt="Admin Dashboard Screenshot"
+      class="hero-image"
+    >
+
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="content-section">
+
+    <h2>Project Overview</h2>
+
+    <p>
+      This project was developed to improve how prospective
+      students browse and apply for Warwick Summer School courses
+      while providing administrators with tools to manage and
+      review submissions efficiently.
+    </p>
+
+    <p>
+      The platform includes a course discovery interface,
+      application submission workflow, administrator dashboard,
+      and database-driven application management system.
+    </p>
+
+  </section>
+
+  
+
+  <!-- ROLE -->
+  <section class="content-section">
+
+    <h2>My Role</h2>
+
+    <ul>
+      <li>Full-stack web development</li>
+      <li>Database design and management</li>
+      <li>Frontend UI implementation</li>
+      <li>Flask route development</li>
+      <li>Session authentication</li>
+      <li>Application workflow design</li>
+    </ul>
+
+  </section>
+
+  <!-- WIREFRAMES -->
+  <section class="content-section">
+
+    <h2>Wireframing & Planning</h2>
+
+    <p>
+      Initial low-fidelity wireframes were created to plan
+      navigation structure, application flows, and administrator
+      interactions before development began.
+    </p>
+
+    <div class="image-grid">
+
+      <div>
+        <img src="images\warwick-portal\homepage-wireframe.png" alt="Homepage Wireframe">
+        <p>Homepage Wireframe</p>
+      </div>
+
+      <div>
+        <img src="images\warwick-portal\dashboard-wireframe.jpg" alt="Dashboard Wireframe">
+        <p>Admin Dashboard Wireframe</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FINAL UI -->
+  <section class="content-section">
+
+    <h2>Final Interface Design</h2>
+
+    <div class="project-image">
+
+      <h3>Course Discovery Homepage</h3>
+
+      <p>
+        The homepage was designed to help users quickly browse
+        available summer school courses by category.
+      </p>
+
+      <img src="images\warwick-portal\homepage.png" alt="Homepage Screenshot">
+
+    </div>
+
+    <div class="project-image">
+
+      <h3>Application Submission Workflow</h3>
+
+      <p>
+        Students can submit applications using a structured form
+        with validation and confirmation feedback.
+      </p>
+
+      <img src="images\warwick-portal\application-form.png" alt="Application Form Screenshot">
+
+    </div>
+
+    <div class="project-image">
+
+      <h3>Administrative Dashboard</h3>
+
+      <p>
+        Administrators can review applications, update statuses,
+        and manage applicant records through a secure dashboard.
+      </p>
+
+      <img src="images\warwick-portal\admin-dashboard.png" alt="Dashboard Screenshot">
+
+    </div>
+
+  </section>
+
+  <!-- FEATURES -->
+  <section class="content-section">
+
+    <h2>Key Features</h2>
+
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <h3>CRUD Functionality</h3>
+        <p>
+          Implemented create, read, update, and delete
+          operations for managing student applications.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Session Authentication</h3>
+        <p>
+          Protected administrator routes using
+          Flask session-based authentication.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Responsive UI</h3>
+        <p>
+          Built responsive pages using Bootstrap
+          and reusable Jinja templates.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Database Management</h3>
+        <p>
+          SQLite was used to store applications,
+          timestamps, and status updates.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TECHNICAL -->
+  <section class="content-section">
+
+    <h2>Technical Architecture</h2>
+
+    <p>
+      The application uses Flask routes to manage
+      application workflows while SQLite handles
+      persistent data storage.
+    </p>
+
+    <img
+      src="../images/application-flow.png"
+      alt="Application Flow Diagram"
+      class="large-image"
+    >
+
+  </section>
+
+  <!-- CHALLENGES -->
+  <section class="content-section">
+
+    <h2>Challenges & Solutions</h2>
+
+    <p>
+      One challenge involved managing administrator access
+      securely while maintaining a simple user workflow.
+      Session-based authentication was implemented to protect
+      restricted administrative routes.
+    </p>
+
+    <p>
+      Another challenge involved handling large numbers of
+      applications efficiently. Future improvements could
+      include asynchronous processing and automated email
+      notifications.
+    </p>
+
+  </section>
+
+  <!-- FUTURE -->
+  <section class="content-section">
+
+    <h2>Future Improvements</h2>
+
+    <ul>
+      <li>Password hashing and encrypted authentication</li>
+      <li>Email notification system</li>
+      <li>User accounts and application tracking</li>
+      <li>REST API integration</li>
+      <li>Search and filtering functionality</li>
+      <li>Migration from SQLite to PostgreSQL</li>
+    </ul>
+
+  </section>
+
+  <!-- LINKS -->
+  <section class="content-section">
+
+    <h2>Project Links</h2>
+
+    <div class="links">
+
+      <a href="#">GitHub Repository</a>
+
+      <a href="#">Live Demo</a>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
