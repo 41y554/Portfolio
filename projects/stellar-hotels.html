@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Stellar Hotel Group Analytics Project</title>
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <a href="../index.html" class="back-link">← Back to Portfolio</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">Featured Data Analytics Project</p>
+
+      <h1>Stellar Hotel Group Analytics Solution</h1>
+
+      <p class="hero-text">
+        A consultancy-style big data analytics project focused on
+        improving operational visibility, customer insights,
+        and pricing optimisation for a UK hotel chain using
+        cloud data warehousing, predictive analytics,
+        and Tableau dashboards.
+      </p>
+
+      <div class="tech-stack">
+        <span>Tableau</span>
+        <span>Big Data</span>
+        <span>Data Analytics</span>
+        <span>SQL</span>
+        <span>Data Visualisation</span>
+        <span>Business Intelligence</span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="https://github.com/41y554/stellar-hotels-analytics" class="primary-btn" target="_blank">
+          GitHub Repository
+        </a>
+
+        <a
+          href="https://public.tableau.com/views/BDAODashboard5677998/StellarHotelGroupPerformanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          class="secondary-btn"
+          target="_blank"
+        >
+          View Tableau Dashboard
+        </a>
+      </div>
+
+    </div>
+
+    <div class="hero-image-container">
+
+      <img
+        src="../images/stellar-hotels/dashboard-overview.png"
+        alt="Dashboard Overview"
+        class="hero-image"
+      >
+
+    </div>
+
+  </section>
+
+  <!-- PROJECT OVERVIEW -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Project Overview</h2>
+
+      <p>
+        Stellar Hotel Group operates six midscale hotels across the UK.
+        The organisation faced challenges caused by fragmented systems,
+        disconnected customer data, and limited analytical capabilities.
+      </p>
+
+      <p>
+        This project evaluated the company’s existing technology landscape
+        and proposed scalable big data solutions including cloud data
+        warehousing, predictive analytics, and interactive dashboards
+        to improve operational decision-making and customer experience.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- BUSINESS PROBLEMS -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Business Challenges</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+
+          <h3>Fragmented Systems</h3>
+
+          <p>
+            Each hotel operated independent property management systems,
+            making it difficult to gain a unified operational view.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Disconnected Customer Data</h3>
+
+          <p>
+            PMS systems, HubSpot CRM, and Google Analytics were not integrated,
+            limiting customer insight and marketing effectiveness.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Manual Reporting</h3>
+
+          <p>
+            Reporting relied heavily on Excel and basic SQL queries,
+            preventing advanced analysis and real-time insights.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Pricing Inefficiencies</h3>
+
+          <p>
+            Room pricing decisions were based largely on historical data
+            instead of predictive analytics and dynamic demand forecasting.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CURRENT SYSTEM -->
+ <section class="content-section">
+
+  <div class="text-container">
+
+    <h2>Current System Architecture</h2>
+
+    <p>
+      Stellar Hotel Group currently operates with fragmented,
+      disconnected systems across its six hotel properties.
+      Each hotel stores operational data locally within
+      independent Property Management Systems (PMS),
+      while HubSpot CRM and Google Analytics operate
+      separately with limited integration.
+    </p>
+
+    <p>
+      This architecture creates significant data silos,
+      preventing the organisation from gaining a unified
+      customer view or performing advanced analytics
+      across all properties.
+    </p>
+
+  </div>
+
+  <img
+    src="../images/stellar-hotels/current-architecture.png"
+    alt="Current Architecture Diagram"
+    class="large-image"
+  >
+
+  <div class="text-container">
+
+    <ul>
+      <li>Independent PMS systems store hotel data locally</li>
+      <li>HubSpot CRM is disconnected from operational booking systems</li>
+      <li>Google Analytics data is isolated from customer booking data</li>
+      <li>Reporting relies on Excel spreadsheets and manual SQL queries</li>
+      <li>Limited capability for real-time analytics and forecasting</li>
+    </ul>
+
+  </div>
+
+</section>
+
+  <!-- TECHNOLOGY EVALUATION -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Technology Evaluation</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+
+          <h3>Property Management Systems</h3>
+
+          <ul>
+            <li>Managed bookings and billing</li>
+            <li>Data stored locally</li>
+            <li>No centralised integration</li>
+          </ul>
+
+        </div>
+
+        <div class="card">
+
+          <h3>HubSpot CRM</h3>
+
+          <ul>
+            <li>Managed customer interactions</li>
+            <li>Customer profiles isolated</li>
+            <li>Limited operational insight</li>
+          </ul>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Google Analytics</h3>
+
+          <ul>
+            <li>Tracked marketing campaigns</li>
+            <li>No CRM or PMS integration</li>
+            <li>Limited actionable analytics</li>
+          </ul>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Excel & SQL Reporting</h3>
+
+          <ul>
+            <li>Supported basic reporting</li>
+            <li>Manual and time-consuming</li>
+            <li>Not scalable for big data</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="content-section">
+
+  <div class="text-container">
+
+    <h2>Proposed Architecture</h2>
+
+    <p>
+      The proposed architecture introduces a cloud-based
+      big data ecosystem that centralises operational,
+      customer, and marketing data into a unified platform.
+    </p>
+
+    <p>
+      By integrating PMS systems, HubSpot CRM,
+      and Google Analytics through ETL pipelines,
+      Stellar Hotel Group can enable real-time analytics,
+      predictive modelling, and organisation-wide reporting.
+    </p>
+
+  </div>
+
+  <img
+    src="../images/stellar-hotels/future-architecture.png"
+    alt="Future Architecture Diagram"
+    class="large-image"
+  >
+
+  <div class="text-container">
+    <ul>
+      <li>Cloud data warehouse centralises all hotel data</li>
+      <li>ETL pipelines standardise and integrate data sources</li>
+      <li>Predictive analytics supports demand forecasting and pricing</li>
+      <li>Unified customer profiles improve marketing personalisation</li>
+      <li>Interactive dashboards provide real-time business insights</li>
+    </ul>
+  </div>
+
+</section>
+
+  <!-- TECHNOLOGY RECOMMENDATIONS -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Technology Recommendations</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+
+          <h3>Cloud Data Warehousing</h3>
+
+          <p>
+            Recommended technologies such as Google BigQuery
+            and AWS Redshift to centralise fragmented data.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>ETL Pipelines</h3>
+
+          <p>
+            Proposed ETL processes to standardise,
+            clean, and integrate heterogeneous datasets.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Predictive Analytics</h3>
+
+          <p>
+            Machine learning models would support
+            demand forecasting and dynamic pricing strategies.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Customer Intelligence</h3>
+
+          <p>
+            Unified customer profiles would enable
+            personalised marketing and improved retention.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DASHBOARD -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Interactive Dashboard Solution</h2>
+
+      <p>
+        A Tableau dashboard was developed to provide
+        operational insights across bookings, cancellations,
+        room demand, customer loyalty, and revenue trends.
+      </p>
+
+    </div>
+<div class='tableauPlaceholder' id='tableauViz'>
+
+  <object class='tableauViz'>
+
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+
+    <param name='embed_code_version' value='3' />
+
+    <param name='site_root' value='' />
+
+    <param
+      name='name'
+      value='BDAODashboard5677998/StellarHotelGroupPerformanceDashboard'
+    />
+
+    <param name='tabs' value='no' />
+
+    <param name='toolbar' value='yes' />
+
+    <param name='language' value='en-US' />
+
+  </object>
+
+</div>
+
+<script type='text/javascript'>
+
+  var divElement = document.getElementById('tableauViz');
+
+  var vizElement = divElement.getElementsByTagName('object')[0];
+
+  vizElement.style.width = '100%';
+
+  vizElement.style.height = '850px';
+
+  var scriptElement = document.createElement('script');
+
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+</script>
+
+  </section>
+
+  <!-- DASHBOARD FEATURES -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Dashboard Features</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+
+          <h3>Bookings Overview</h3>
+
+          <p>
+            Compared completed bookings and cancellations
+            to identify operational trends.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Revenue Insights</h3>
+
+          <p>
+            Tracked ADR trends to support
+            pricing optimisation strategies.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Lead Time Analysis</h3>
+
+          <p>
+            Visualised booking lead times to improve
+            staffing and pricing decisions.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Customer Loyalty</h3>
+
+          <p>
+            Analysed repeated guest rates
+            and retention patterns.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- VISUALISATION -->
+ <section class="content-section">
+
+  <div class="text-container">
+
+    <h2>Data Visualisation Best Practices</h2>
+
+    <p>
+       The dashboard followed key visualisation principles
+        including consistency, clarity, interactivity,
+        storytelling, and actionable insight generation.
+    </p>
+
+  </div>
+
+  <div class="dashboard-example">
+
+   
+
+    <div class="text-container">
+
+      <h3>Bookings & Cancellation Analysis</h3>
+
+       <img
+      src="../images/stellar-hotels/bookings-chart.png"
+      alt="Bookings and Cancellations Chart"
+      class="large-image"
+    >
+
+      <p>
+        A stacked bar chart was used to clearly
+        compare completed bookings against cancellations,
+        allowing management to quickly identify
+        cancellation trends and operational risks.
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="dashboard-example">
+
+   
+
+    <div class="text-container">
+
+      <h3>Average Daily Rate Trends</h3>
+
+       <img
+      src="../images/stellar-hotels/adr-chart.png"
+      alt="ADR Trend Chart"
+      class="large-image"
+    >
+
+      <p>
+        A line chart was selected to visualise
+        ADR fluctuations over time, supporting
+        dynamic pricing decisions and revenue optimisation.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- RISKS -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Implementation Risks & Mitigation</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+
+          <h3>Data Migration Complexity</h3>
+
+          <p>
+            Phased implementation was recommended
+            to reduce disruption during migration.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Data Security & GDPR</h3>
+
+          <p>
+            Encryption and multi-factor authentication
+            were proposed to protect sensitive customer data.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Employee Adoption</h3>
+
+          <p>
+            Staff training programmes were recommended
+            to improve confidence using new technologies.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FINAL REFLECTION -->
+  <section class="section">
+
+    <div class="text-container">
+
+      <h2>Project Reflection</h2>
+
+      <p>
+        This project strengthened my understanding of
+        enterprise analytics architecture, dashboard storytelling,
+        predictive analytics, and the role of big data technologies
+        in improving operational decision-making.
+      </p>
+
+      <p>
+        It also enhanced my ability to communicate
+        technical solutions within a consultancy-style
+        business context.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      Built using Tableau, SQL, cloud analytics concepts,
+      and business intelligence methodologies.
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
