@@ -34,23 +34,28 @@
 
     <div class="tech-stack">
       <span>UX Design</span>
+      <span>Systems Design</span>
+      <span>Accessibility</span>
       <span>Vue.js</span>
       <span>Django</span>
       <span>PostgreSQL</span>
-      <span>WebSockets</span>
-      <span>Accessibility</span>
+            
     </div>
 
     <div class="hero-buttons">
-      <a href="#" class="primary-btn">Prototype</a>
-      <a href="#" class="secondary-btn">Case Study PDF</a>
-    </div>
+  <a href="https://miro.com/app/board/uXjVHUTpehE=/" 
+     class="primary-btn"
+     target="_blank">
+     View Miro Board
+  </a>
+</div>
+
 
   </div>
 
   <div class="hero-image-container">
     <img src="../images/wellness-platform/dashboard-hero.png"
-         alt="Wellness Booking Platform Dashboard"
+         alt="Account Configuration Wireframe"
          class="hero-image">
   </div>
 
@@ -187,21 +192,16 @@
       different accessibility needs, scheduling behaviours,
       and levels of digital confidence.
     </p>
-  </div>
 
-  <div class="image-grid">
+<img
+  src="../images/wellness-platform/user-personas.png"
+  alt="User Persona Summary"
+  class="large-image">
 
-    <div>
-      <img src="../images/wellness-platform/persona-rachel.png"
-           alt="Rachel Persona">
-      <p class="caption">Busy professional with unpredictable scheduling needs</p>
-    </div>
-
-    <div>
-      <img src="../images/wellness-platform/persona-clarice.png"
-           alt="Clarice Persona">
-      <p class="caption">Older user requiring simple navigation and accessibility support</p>
-    </div>
+<p class="caption">
+  Five personas representing different user needs,
+  accessibility requirements, and booking behaviours.
+</p>
 
   </div>
 
@@ -316,29 +316,26 @@
 
     <h2>Wireframes & User Flows</h2>
 
-    <p>
-      User journeys and scheduling workflows
-      were mapped using medium-fidelity wireframes
-      and systems diagrams.
-    </p>
+    <div class="project-block">
 
-  </div>
+  <h3>User Onboarding Workflow</h3>
 
-  <div class="image-grid">
+  <p>
+    User onboarding workflow showing the journey from
+    account creation through appointment booking and
+    ongoing engagement.
+  </p>
 
-    <div>
-      <img src="../images/wellness-platform/booking-flow.png"
-           alt="Booking Flow">
-      <p class="caption">Booking workflow exploration</p>
-    </div>
+  <img
+  src="../images/wellness-platform/onboarding-workflow.png"
+  alt="User Onboarding Workflow"
+  class="large-image">
 
-    <div>
-      <img src="../images/wellness-platform/admin-wireframe.png"
-           alt="Admin Dashboard Wireframe">
-      <p class="caption">Admin dashboard wireframe</p>
-    </div>
+  <p class="caption">
+  User onboarding workflow illustrating the booking and account creation process.
+</p>
 
-  </div>
+</div>
 
 </section>
 
@@ -346,54 +343,74 @@
 <section class="section">
 
   <div class="text-container">
-    <h2>Prototype Highlights</h2>
 
-    <div class="project-block">
+    <h2>Proposed Platform Interfaces</h2>
 
-      <h3>Client Booking Experience</h3>
+    <p>
+      Medium-fidelity platform interfaces were created to demonstrate the client booking journey, practitioner workflow management, and administrative oversight functionality.
+    </p>
 
-      <p>
-        Mobile-friendly booking flow with
-        integrated scheduling,
-        session selection,
-        and reminders.
-      </p>
+  </div>
 
-      <img src="../images/wellness-platform/client-booking-ui.png"
-           alt="Client Booking UI">
+</section>
 
-    </div>
+  <div class="project-block">
 
-    <div class="project-block">
+  <h3>Client Interface</h3>
 
-      <h3>Practitioner Dashboard</h3>
+  <p>
+    Clients can browse services, manage appointments,
+    and complete bookings through a mobile-friendly workflow.
+  </p>
 
-      <p>
-        Practitioners could manage schedules,
-        cancellations,
-        and client session history securely.
-      </p>
+  <iframe
+    width="100%"
+    height="600"
+    src="https://miro.com/app/live-embed/uXjVHUTpehE=/?embedMode=view_only_without_ui&moveToViewport=-6051,-3433,6371,2548&embedId=973170312605"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 
-      <img src="../images/wellness-platform/practitioner-dashboard.png"
-           alt="Practitioner Dashboard">
+</div>
 
-    </div>
+<div class="project-block">
 
-    <div class="project-block">
+  <h3>Practitioner Interface</h3>
 
-      <h3>Administrative Dashboard</h3>
+  <p>
+    Practitioners can manage appointments,
+    review schedules, and track client interactions.
+  </p>
 
-      <p>
-        Centralised admin tools provided
-        reporting features,
-        event management,
-        and operational oversight.
-      </p>
+  <iframe
+    width="100%"
+    height="600"
+    src="https://miro.com/app/live-embed/uXjVHUTpehE=/?embedMode=view_only_without_ui&moveToViewport=-4931,-500,2361,2046&embedId=226036579142"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 
-      <img src="../images/wellness-platform/admin-dashboard.png"
-           alt="Admin Dashboard">
+</div>
 
-    </div>
+<div class="project-block">
+
+  <h3>Centralised Admin Dashboard</h3>
+
+  <p>
+    Administrators can oversee bookings,
+    practitioner schedules, reporting,
+    and operational activity from a single interface.
+  </p>
+
+  <iframe
+    width="100%"
+    height="650"
+    src="https://miro.com/app/live-embed/uXjVHUTpehE=/?embedMode=view_only_without_ui&moveToViewport=2096,-3064,6528,1138&embedId=800122794563"
+    allowfullscreen>
+  </iframe>
+
+</div>
+    
 
   </div>
 
@@ -406,11 +423,15 @@
 
     <h2>Technical Architecture</h2>
 
-    <p>
-      The proposed platform architecture prioritised
-      scalability, maintainability,
-      and accessibility for a small-to-medium business.
-    </p>
+    <img
+  src="../images/wellness-platform/technical-architecture.png"
+  alt="Technical Architecture Diagram"
+  >
+
+<p class="caption">
+  Proposed system architecture showing frontend,
+  backend, database, and real-time scheduling components.
+</p>
 
   </div>
 
@@ -484,6 +505,24 @@
 <section class="section">
 
   <div class="text-container">
+
+    <section class="section">
+
+  <div class="text-container">
+
+    <h2>Project Outcome</h2>
+
+    <p>
+      The proposed solution demonstrated how a digital-first
+      booking ecosystem could reduce administrative workload,
+      improve accessibility, streamline practitioner scheduling,
+      and create a more consistent client experience across
+      both client-facing and operational workflows.
+    </p>
+
+  </div>
+
+</section>
 
     <h2>Future Improvements</h2>
 

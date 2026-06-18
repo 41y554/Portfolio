@@ -6,6 +6,15 @@ body {
   line-height: 1.7;
 }
 
+:root {
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 80px;
+  --space-xxl: 120px;
+}
+
 /* NAVIGATION */
 nav {
   padding: 24px 40px;
@@ -126,7 +135,7 @@ nav a {
 /* GLOBAL SECTION */
 .section {
   width: 100%;
-  padding: 90px 0;
+  padding: var(--space-xxl) 0;
 }
 
 /* CENTERED TEXT CONTAINER */
@@ -194,20 +203,56 @@ img {
 /* CARD GRID */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-lg);
   max-width: 1200px;
-  margin: 50px auto 0 auto;
+  margin: var(--space-xl) auto 0;
   padding: 0 24px;
 }
 
 /* CARDS */
 .card {
   background: white;
-  padding: 32px;
+  padding: 36px;
   border-radius: 18px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
+.card a {
+  margin-top: auto;
+  display: inline-block;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 16px 35px rgba(0,0,0,0.08);
+}
+
+
+/* PROJECT BANNER */
+.project-banner {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 16px 20px;
+
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+
+  color: #555;
+  font-size: 15px;
+}
+
+
+
 
 /* PROJECT BLOCKS */
 .project-block {
@@ -304,4 +349,15 @@ footer p {
 .tableauViz {
   border-radius: 14px;
   overflow: hidden;
+}
+
+.miro-embed {
+  width: 100%;
+  max-width: 1400px;
+  height: 600px;
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  margin-top: 20px;
 }
